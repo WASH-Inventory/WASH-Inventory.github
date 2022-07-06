@@ -1,0 +1,81 @@
+@font-face {
+   font-family: 'BungeeShade-Regular';
+   src: url(../static/BungeeShade-Regular.ttf);
+
+}
+body{
+  align-items: center;
+  background-color: white;
+  justify-content: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  font-family: 'BungeeShade-Regular';
+  text-align: center;
+  font-size: 105px;
+  transform: translate(7%, -42%);
+}
+ 
+.centered2 {
+  position: absolute;
+  font-family: 'BungeeShade-Regular';
+  text-align: center;
+  font-size: 105px;
+  transform: translate(50%, -40%);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 28%;
+}
+
+h1{
+  margin-top: 30px;
+  font-family:colonna mt regular;
+}
+h2{
+  margin-top: 100px;
+  font-family: mistral regular;
+  font-size: 35px;
+}
+
+@media only screen and (max-width: 700px){
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  font-family: 'BungeeShade-Regular';
+  text-align: center;
+  font-size: 140px;
+  transform: translate(40%, -50%);
+}
+ 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 280%;
+}
+
+
+.centered2 {
+  position: absolute;
+  font-family: 'BungeeShade-Regular';
+  text-align: center;
+  font-size: 110px;
+  transform: translate(0%, -1%);
+}
+
+
